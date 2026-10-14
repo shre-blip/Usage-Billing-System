@@ -35,9 +35,3 @@ INSERT INTO Resources VALUES
 (1, 'Meeting Room A', 2, 1),
 (2, 'Workstation 1', 1, 2);
 
--- Example query to check capacity use from active sessions:
--- SELECT r.resource_name, r.capacity, COUNT(u.usage_id) AS active_users
--- FROM Resources r
--- LEFT JOIN UsageRecords u
---   ON r.resource_id = u.resource_id AND u.end_time IS NULL
--- GROUP BY r.resource_id, r.resource_name, r.capacity;
