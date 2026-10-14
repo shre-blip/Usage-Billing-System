@@ -1,6 +1,4 @@
--- Basic relational design for storing the same information in an SQL database.
--- The assignment permits in-memory storage and does not require a database connection.
--- Prices are stored in rupees. DECIMAL is used for money rather than floating point.
+ 
 
 CREATE TABLE Services (
     service_id INT PRIMARY KEY,
