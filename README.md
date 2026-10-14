@@ -118,6 +118,7 @@ Example:
 ```java
 List<Resource> resources = new ArrayList<>();
 List<UsageRecord> allUsages = new ArrayList<>()
+```
 
 ## How to Run
 
